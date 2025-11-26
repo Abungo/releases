@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>APK Downloads</title>
+</head>
+<body>
+  <h1>Available APKs</h1>
+  <ul id="apk-list"></ul>
+
+  <script>
+    fetch('apks.json')
+      .then(response => response.json())
+      .then(apks => {
+        const list = document.getElementById('apk-list');
+        apks.forEach(apk => {
+          const listItem = document.createElement('li');
+          const link = document.createElement('a');
+          link.href = apk.file;
+          link.textContent = apk.name;
+          link.download = ''; // prompt download
+          listItem.appendChild(link);
+          list.appendChild(listItem);
+        });
+      })
+      .catch(error => console.error('Error loading APK list:', error));
+  </script>
+</body>
+</html>
