@@ -1,0 +1,37 @@
+{
+  "apps": [
+    {
+      "id": "sscc",
+      "name": "SSCC Generator",
+      "bottler": "Shika",
+      "icon": "https://via.placeholder.com/512",
+      "description": "Offline SSCC code generation app for bottlers.",
+      "versions": [
+        {
+          "version": "1.1",
+          "date": "25 Dec 2025",
+          "apk": "app/shika/sscc-v1.1.apk"
+        },
+        {
+          "version": "1.0",
+          "date": "22 Dec 2025",
+          "apk": "app/shika/sscc-v1.0.apk"
+        }
+      ]
+    },
+    {
+      "id": "inventory",
+      "name": "Inventory Manager",
+      "bottler": "Pepsi – Guwahati",
+      "icon": "https://via.placeholder.com/512",
+      "description": "Warehouse inventory and stock tracking app.",
+      "versions": [
+        {
+          "version": "2.0",
+          "date": "15 Jan 2025",
+          "apk": "apks/pepsi/inventory/inventory-v2.0.apk"
+        }
+      ]
+    }
+  ]
+}
