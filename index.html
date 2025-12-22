@@ -1,28 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>APK Downloads</title>
+    <meta charset="UTF-8">
+    <title>SSCC Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 720px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .download-btn {
+            display: block;
+            background: #2ecc71;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin: 20px 0;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 6px;
+        }
+        .download-btn:hover {
+            background: #27ae60;
+        }
+        .note {
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Available APKs</h1>
-  <ul id="apk-list"></ul>
+<div class="container">
 
-  <script>
-    fetch('apks.json')
-      .then(response => response.json())
-      .then(apks => {
-        const list = document.getElementById('apk-list');
-        apks.forEach(apk => {
-          const listItem = document.createElement('li');
-          const link = document.createElement('a');
-          link.href = apk.file;
-          link.textContent = apk.name;
-          link.download = ''; // prompt download
-          listItem.appendChild(link);
-          list.appendChild(listItem);
-        });
-      })
-      .catch(error => console.error('Error loading APK list:', error));
-  </script>
+    <h1>SSCC Generator</h1>
+    <p>
+        SSCC Generator is an offline Android app designed for generating
+        SSCC codes easily and securely.
+    </p>
+
+    <a class="download-btn" href="app/sscc-generator-v1.0.apk">
+        ⬇ Download APK (v1.0)
+    </a>
+
+    <p class="note">
+        • Android 7.0+ required<br>
+        • Size: ~8 MB<br>
+        • Not available on Play Store
+    </p>
+
+    <hr>
+
+    <h3>Changelog</h3>
+    <pre>
+v1.0
+- Initial release
+- Offline SSCC generation
+    </pre>
+
+    <hr>
+
+    <h3>Contact</h3>
+    <p>
+        Developer: Thokchom Abungo Meitei<br>
+        Email: abungothokchom@gmail.com
+    </p>
+
+</div>
 </body>
 </html>
