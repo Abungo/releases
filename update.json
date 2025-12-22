@@ -1,0 +1,46 @@
+{
+  "last_updated": "2025-12-25",
+
+  "apps": [
+    {
+      "package": "com.renskylab.sscc.shika",
+      "name": "SSCC Generator",
+      "bottler": "Shika",
+      "icon": "https://placehold.co/512x512?text=Shika",
+      "description": "Offline SSCC code generation app for Shika.",
+
+      "latest": {
+        "version_name": "1.1",
+        "version_code": 2,
+        "release_date": "25 Dec 2025",
+        "apk": "https://raw.githubusercontent.com/Abungo/releases/master/app/shika/sscc-v1.1.apk",
+        "mandatory": false
+      },
+
+      "history": [
+        {
+          "version_name": "1.0",
+          "version_code": 1,
+          "apk": "https://raw.githubusercontent.com/Abungo/releases/master/app/shika/sscc-v1.0.apk",
+          "release_date": "22 Dec 2025"
+        }
+      ]
+    },
+
+    {
+      "package": "com.renskylab.inventory.pepsi_guwahati",
+      "name": "Inventory Manager",
+      "bottler": "Pepsi – Guwahati",
+      "icon": "https://via.placeholder.com/512",
+      "description": "Warehouse inventory and stock tracking app.",
+
+      "latest": {
+        "version_name": "2.0",
+        "version_code": 3,
+        "release_date": "15 Jan 2025",
+        "apk": "https://raw.githubusercontent.com/Abungo/releases/master/app/pepsi/inventory/inventory-v2.0.apk",
+        "mandatory": true
+      }
+    }
+  ]
+}
