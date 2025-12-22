@@ -4,8 +4,8 @@
       "id": "sscc",
       "name": "SSCC Generator",
       "bottler": "Shika",
-      "icon": "https://via.placeholder.com/512",
-      "description": "Offline SSCC code generation app for bottlers.",
+      "icon": "https://placehold.co/600x400?text=Shika",
+      "description": "Offline SSCC code generation app for Shika.",
       "versions": [
         {
           "version": "1.1",
