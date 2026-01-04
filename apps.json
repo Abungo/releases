@@ -20,6 +20,25 @@
       ]
     },
     {
+      "id": "sscc",
+      "name": "SSCC Generator",
+      "bottler": "KDM",
+      "icon": "https://placehold.co/600x400?text=KDM",
+      "description": "Offline SSCC code generation app for KDM.",
+      "versions": [
+        {
+          "version": "1.1",
+          "date": "04 Jan 2026",
+          "apk": "app/kdm/sscc-v1.1.apk"
+        },
+        {
+          "version": "1.0",
+          "date": "22 Dec 2025",
+          "apk": "app/shika/sscc-v1.0.apk"
+        }
+      ]
+    },
+    {
       "id": "inventory",
       "name": "Inventory Manager",
       "bottler": "Pepsi – Guwahati",
